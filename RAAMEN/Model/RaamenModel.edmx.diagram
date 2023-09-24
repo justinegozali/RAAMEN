@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d9c3d170ceb46a3995124a5867ef07b" Name="Diagram1">
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Cart" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Detail" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Header" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Meat" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Raman" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.Role" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaamenDatabaseModel.User" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Cart__RamenId__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Cart__UserId__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Detail__HeaderId__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Detail__RamenId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Header__Customer__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__Ramen__MeatId__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="RaamenDatabaseModel.FK__User__RoleId__25869641" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
